@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "636426726764",
+    "project_id": "contactapp-fd8af",
+    "storage_bucket": "contactapp-fd8af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:636426726764:android:dbe522b8866ada36489749",
+        "android_client_info": {
+          "package_name": "com.example.contactapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6tz0YnWB0bHP6GqxxRN0gh-5SAblN1yQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
