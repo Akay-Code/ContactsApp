@@ -36,7 +36,10 @@ class SignInActivity : AppCompatActivity() {
         databaseReference.child(inputName).get().addOnSuccessListener {
             if(it.exists()){
                 Toast.makeText(this, "User found", Toast.LENGTH_SHORT).show()
-                startActivity(Intent(this,AddOrReadActivity::class.java))
+                val intent = Intent(this,AddOrReadActivity::class.java)
+                intent.putExtra("name", inputName)
+
+                startActivity(intent)
             }
             else{
                 Toast.makeText(this, "User not found", Toast.LENGTH_SHORT).show()

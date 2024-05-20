@@ -36,6 +36,7 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/newContact"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="name" />
@@ -47,6 +48,7 @@
         android:layout_height="wrap_content">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/newContactNumber"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="phone number"
@@ -56,7 +58,7 @@
     <Button
         android:layout_gravity="center"
         android:layout_margin="10dp"
-        android:id="@+id/button"
+        android:id="@+id/addNewUser"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
