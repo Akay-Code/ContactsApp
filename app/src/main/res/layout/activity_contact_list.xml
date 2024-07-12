@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ContactList"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/defaultContactTitle"
+        android:id="@+id/userContactsInfo"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        />
+
+    <Button
+        android:id="@+id/addNewContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add New Contact"
+        android:textSize="20dp"
+        android:layout_margin="10dp"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/ContactsRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp"
+        />
+
+
+</LinearLayout>

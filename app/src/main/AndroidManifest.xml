@@ -13,13 +13,13 @@
         android:theme="@style/Theme.ContactApp"
         tools:targetApi="31">
         <activity
-            android:name=".AddContact"
+            android:name=".AddNewContact"
+            android:exported="false" />
+        <activity
+            android:name=".ContactList"
             android:exported="false" />
         <activity
             android:name=".SignUpActivity"
-            android:exported="false" />
-        <activity
-            android:name=".AddOrReadActivity"
             android:exported="false" />
         <activity
             android:name=".SignInActivity"
